@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+</head>
+<body>
+    <h2>Simple Calculator</h2>
+    <form action="/calc" method="post">
+        <label for="no1">Number 1:</label>
+        <input type="text" id="no1" name="no1" required><br><br>
+
+        <label for="no2">Number 2:</label>
+        <input type="text" id="no2" name="no2" required><br><br>
+
+        <label for="formula">Operation:</label>
+        <select id="formula" name="formula">
+            <option value="add">Addition</option>
+            <!-- You can add more operations later -->
+        </select><br><br>
+
+        <button type="submit">Calculate</button>
+    </form>
+</body>
+</html>
